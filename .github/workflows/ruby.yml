@@ -32,5 +32,5 @@ jobs:
         git commit -m "Update from github ci sotmjp2024/${{ github.sha }}"
         git push --quiet origin master > /dev/null 2>&1
       env:
-        gh_token: ${{ secrets.GH_TOKEN }}
+        gh_token: ${{ secrets.GITHUB_TOKEN }}
         
