@@ -11,7 +11,8 @@
             container: 'map',
             style: 'files/style.json',
             center: [{{ l['marker_lon'] }}, {{ l['marker_lat'] }}],
-            zoom: {{ l['zoom'] }}
+            zoom: {{ l['zoom'] }},
+            pitch: 30,
           });
           map.addControl(new maplibregl.NavigationControl());
           const marker = new maplibregl.Marker()
