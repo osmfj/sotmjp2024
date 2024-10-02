@@ -9,7 +9,7 @@
         <script>
           const map = new maplibregl.Map({
             container: 'map',
-            style: '/style.json',
+            style: 'files/style.json',
             center: [{{ l['marker_lon'] }}, {{ l['marker_lat'] }}],
             zoom: {{ l['zoom'] }}
           });
