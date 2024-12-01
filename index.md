@@ -5,6 +5,7 @@ layout: home
 
 {% include about.html %}
 {% include news.html %}
+{% include pre-event.html %}
 {% include outline.html %}
 {% comment %}
 {% include speaker.html %}
