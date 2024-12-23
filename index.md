@@ -11,7 +11,7 @@ layout: home
 {% comment %}
 {% include speaker.html %}
 {% include timetable.html %}
-{% include sponser.html %}
 {% endcomment %}
+{% include sponser.html %}
 {% include committee.html %}
 {% include map.html %}

@@ -1,5 +1,4 @@
-platinum:
-
-gold:
-
-silver:
+core:
+  - company: LocationMind
+    url: https://locationmind.com/
+    img: LocationMind_logo.png
