@@ -2,6 +2,7 @@ core:
   - company: LocationMind
     url: https://locationmind.com/
     img: LocationMind_logo.png
+community:
   - company: TomTom
     url: https://www.tomtom.com/
     img: TomTom-logo-RGB_lockup.png
