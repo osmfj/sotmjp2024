@@ -10,9 +10,9 @@ layout: home
 {% endcomment %}
 {% include pre-event.html %}
 {% include outline.html %}
+{% include timetable.html %}
 {% comment %}
 {% include speaker.html %}
-{% include timetable.html %}
 {% endcomment %}
 {% include sponser.html %}
 {% include committee.html %}
